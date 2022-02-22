@@ -1,0 +1,108 @@
+.contact__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact__container > *:not(.contact-page-title) {
+  max-width: var(--screen-width);
+  width: var(--screen-width);
+  max-height: var(--screen-height);
+  height: var(--screen-height);
+}
+
+.contact__message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__message {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: var(--border-radius);
+  padding: 3rem 4rem;
+  width: 80%;
+  height: 60%;
+  background-color: var(--primary-main-bg-color);
+  box-shadow: var(--shadow-effect);
+}
+
+.contact__message h2 {
+  font-size: 3rem;
+  color: var(--primary-text-color);
+}
+
+.contact__message p {
+  font-size: 1.3rem;
+  font-weight: 550;
+  color: var(--secondary-dark-color);
+}
+
+.contact__form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact__form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: var(--border-radius);
+  padding: 3rem 4rem;
+  width: 80%;
+  background-color: var(--secondary-main-bg-color);
+  box-shadow: var(--shadow-effect);
+}
+
+.contact__form h2 {
+  font-size: 3rem;
+  color: var(--primary-text-color);
+}
+
+.contact__form label {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.contact__form input {
+  font-size: 1.5rem;
+}
+
+.contact__form input[type='textarea'] {
+  width: 20rem;
+  height: 10rem;
+}
+
+.contact__form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--flex-item-gap);
+}
+
+.contact__reset-button {
+  cursor: pointer;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  width: 5rem;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-dark-color);
+  box-shadow: var(--shadow-effect);
+}
+
+.contact__submit-button {
+  cursor: pointer;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  width: 5rem;
+  color: var(--primary-text-color);
+  background-color: var(--primary-dark-color);
+  box-shadow: var(--shadow-effect);
+}
